@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/EcellWebsite/static/css/main.0324bb4a.css",
-    "main.js": "/EcellWebsite/static/js/main.37324bfe.js",
+    "main.js": "/EcellWebsite/static/js/main.7b175424.js",
     "static/js/787.c4e7f8f9.chunk.js": "/EcellWebsite/static/js/787.c4e7f8f9.chunk.js",
     "static/media/rocket-full.png": "/EcellWebsite/static/media/rocket-full.3412d79d22d32064e48b.png",
     "index.html": "/EcellWebsite/index.html",
     "main.0324bb4a.css.map": "/EcellWebsite/static/css/main.0324bb4a.css.map",
-    "main.37324bfe.js.map": "/EcellWebsite/static/js/main.37324bfe.js.map",
+    "main.7b175424.js.map": "/EcellWebsite/static/js/main.7b175424.js.map",
     "787.c4e7f8f9.chunk.js.map": "/EcellWebsite/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0324bb4a.css",
-    "static/js/main.37324bfe.js"
+    "static/js/main.7b175424.js"
   ]
 }
