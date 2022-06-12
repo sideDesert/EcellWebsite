@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/EcellWebsite/static/css/main.ee48f4f3.css",
-    "main.js": "/EcellWebsite/static/js/main.c8cf56ee.js",
+    "main.css": "/EcellWebsite/static/css/main.464fd5ee.css",
+    "main.js": "/EcellWebsite/static/js/main.b31b2d00.js",
     "static/js/787.c4e7f8f9.chunk.js": "/EcellWebsite/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/bg_try1.jpg": "/EcellWebsite/static/media/bg_try1.e56d2c03f00c088590c3.jpg",
     "static/media/rocket-full.png": "/EcellWebsite/static/media/rocket-full.3412d79d22d32064e48b.png",
     "static/media/ques.png": "/EcellWebsite/static/media/ques.27116c67bbf7197c5898.png",
     "static/media/businessmen.png": "/EcellWebsite/static/media/businessmen.20013a5b0b7e15828c1f.png",
     "static/media/line-rocket.png": "/EcellWebsite/static/media/line-rocket.2f9aca2bfb0f998d9139.png",
+    "static/media/shuttle-icon.svg": "/EcellWebsite/static/media/shuttle-icon.551e116a585d129c52386b183d28a7c5.svg",
     "index.html": "/EcellWebsite/index.html",
-    "main.ee48f4f3.css.map": "/EcellWebsite/static/css/main.ee48f4f3.css.map",
-    "main.c8cf56ee.js.map": "/EcellWebsite/static/js/main.c8cf56ee.js.map",
+    "main.464fd5ee.css.map": "/EcellWebsite/static/css/main.464fd5ee.css.map",
+    "main.b31b2d00.js.map": "/EcellWebsite/static/js/main.b31b2d00.js.map",
     "787.c4e7f8f9.chunk.js.map": "/EcellWebsite/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee48f4f3.css",
-    "static/js/main.c8cf56ee.js"
+    "static/css/main.464fd5ee.css",
+    "static/js/main.b31b2d00.js"
   ]
 }
