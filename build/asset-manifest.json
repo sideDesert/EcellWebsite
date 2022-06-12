@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee48f4f3.css",
-    "main.js": "/static/js/main.b5ec9881.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/rocket-full.png": "/static/media/rocket-full.3412d79d22d32064e48b.png",
-    "static/media/ques.png": "/static/media/ques.27116c67bbf7197c5898.png",
-    "static/media/businessmen.png": "/static/media/businessmen.20013a5b0b7e15828c1f.png",
-    "static/media/line-rocket.png": "/static/media/line-rocket.2f9aca2bfb0f998d9139.png",
-    "index.html": "/index.html",
-    "main.ee48f4f3.css.map": "/static/css/main.ee48f4f3.css.map",
-    "main.b5ec9881.js.map": "/static/js/main.b5ec9881.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/EcellWebsite/static/css/main.ee48f4f3.css",
+    "main.js": "/EcellWebsite/static/js/main.c8cf56ee.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/EcellWebsite/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/rocket-full.png": "/EcellWebsite/static/media/rocket-full.3412d79d22d32064e48b.png",
+    "static/media/ques.png": "/EcellWebsite/static/media/ques.27116c67bbf7197c5898.png",
+    "static/media/businessmen.png": "/EcellWebsite/static/media/businessmen.20013a5b0b7e15828c1f.png",
+    "static/media/line-rocket.png": "/EcellWebsite/static/media/line-rocket.2f9aca2bfb0f998d9139.png",
+    "index.html": "/EcellWebsite/index.html",
+    "main.ee48f4f3.css.map": "/EcellWebsite/static/css/main.ee48f4f3.css.map",
+    "main.c8cf56ee.js.map": "/EcellWebsite/static/js/main.c8cf56ee.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/EcellWebsite/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee48f4f3.css",
-    "static/js/main.b5ec9881.js"
+    "static/js/main.c8cf56ee.js"
   ]
 }
