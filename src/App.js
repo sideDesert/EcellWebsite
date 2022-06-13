@@ -7,6 +7,9 @@ import InformationSection from "./components/Information-section";
 import lineRocket from "./assets/line-rocket.png";
 import lineMen from "./assets/businessmen.png";
 import TakePart from "./components/Take-part-section";
+import Carousel from "./components/Carousel/Carousel";
+import Footer from "./components/Footer/Footer";
+import { useRef } from "react";
 
 const startupList = [
   "Promotions on social media, newspapers, online blogs etc.",
@@ -24,9 +27,39 @@ const investorsList = [
 ];
 
 function App() {
+  function scrollToSection(page) {
+    console.log(page);
+    switch (page) {
+      case "Investors":
+        ref_investor_section.current.scrollIntoView();
+        break;
+      case "Startup":
+        ref_startup_section.current.scrollIntoView();
+        break;
+      case "Registers":
+        ref_take_part_section.current.scrollIntoView();
+        break;
+      case "Sponsors":
+        ref_carousel_section.current.scrollIntoView();
+        break;
+      case "Contact Us":
+        ref_footer_section.current.scrollIntoView();
+        break;
+    }
+  }
+  const ref_startup_section = useRef();
+  const ref_investor_section = useRef();
+  const ref_take_part_section = useRef();
+  const ref_carousel_section = useRef();
+  const ref_footer_section = useRef();
+
   return (
     <div className="App">
-      <ResponsiveAppBar />
+      <ResponsiveAppBar
+        MenuItemClickHandler={(page) => {
+          scrollToSection(page);
+        }}
+      />
       <LandingPage />
       <WhatIsSection />
       <InformationSection
@@ -34,14 +67,18 @@ function App() {
         titlep2="UP"
         image={lineRocket}
         items={startupList}
+        ref={ref_startup_section}
       />
       <InformationSection
         titlep1="INVEST"
         titlep2="ORS"
         image={lineMen}
         items={investorsList}
+        ref={ref_investor_section}
       />
-      <TakePart />
+      <TakePart ref={ref_take_part_section} />
+      <Carousel ref={ref_carousel_section} />
+      <Footer ref={ref_footer_section} />
     </div>
   );
 }
