@@ -50,17 +50,14 @@ const Form = () => {
         Links: values.links.trim(),
         Hear_how: values.hear.trim(),
       };
-      (async () => {
-        const res = await fetch(
-          "https://ecell-startupfair.herokuapp.com/api/startup",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(schema),
-          }
-        );
+      const postData = async () => {
+        const res = await fetch("http://localhost:3001/api/startup", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(schema),
+        });
         const msg = await res.json();
         setIsLoading(false);
         if (msg.Error) {
@@ -71,9 +68,11 @@ const Form = () => {
           console.log("Success!");
           setIsSent(true);
         }
-      })();
+      };
+
+      postData();
     }
-  }, [isSubmit, isValid, isLoading]);
+  }, [isSubmit, isValid]);
 
   const setForm = (input) => {
     if (input) {
@@ -96,7 +95,7 @@ const Form = () => {
       setFormErrors(validate(formValues));
     }
 
-    let timeout = setTimeout(submitForm, 600);
+    setTimeout(submitForm, 600);
   };
 
   React.useEffect(() => {
@@ -130,6 +129,7 @@ const Form = () => {
     }
     return errors;
   };
+
   return (
     <>
       <Navbar />

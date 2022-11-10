@@ -89,16 +89,13 @@ const Form = () => {
       const body = JSON.stringify(schema);
 
       (async () => {
-        const res = await fetch(
-          "https://ecell-startupfair.herokuapp.com/api/vc",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: body,
-          }
-        );
+        const res = await fetch("http://localhost:3001/api/vc", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: body,
+        });
         const msg = await res.json();
         setIsLoading(false);
         if (msg.Error) {
